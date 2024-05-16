@@ -1,0 +1,60 @@
+.border{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+    
+}
+.box{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.title{
+    position: absolute;
+    margin-bottom: 350px;
+}
+.login_form{
+    position: absolute;
+  
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.login_button{
+
+    width: 80px;
+    height: 20px;
+    background-color: #0078d4 ;
+    color: white;
+    margin-top: 20px;
+     margin-left: 120px;
+     font-size: small;
+    
+}
+input[type="text"],input[type="password"]{
+    width: 200px;
+    height: 25px;
+    
+}
+nav{
+    margin-top: 40px;
+    margin-right: 20px;
+    
+}
+nav span{
+     
+   margin-left: 20px;
+
+}
+.ind_button{
+ 
+    width: 80px;
+    height: 20px;
+    background-color: #0078d4 ;
+    color: white;  
+    font-size: small;
+}

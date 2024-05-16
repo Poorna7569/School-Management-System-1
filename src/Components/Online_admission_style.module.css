@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Instructions{
+    width: 90%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px 20px;
+
+}
+.div1_heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(194, 192, 192);
+}
+.Basic_Details{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 20px;
+
+}
+p{
+    margin: 5px 20px;
+}
+sup{
+    color: red;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 20px;
+}
+.input_box{
+    display: flex;
+  flex-direction: column;
+    width: 50%;
+    padding-bottom: 15px;
+    
+   
+}
+
+.input_box label p{
+   
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.input_box input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: 1px solid #ccc;
+}
+.input_box select{
+    width: 50%;
+    height: 30px;
+
+}
+input{
+    border: 1px solid #ccc;
+}
+input:focus:not([type='radio']){
+   border: none;
+   outline: 2px solid skyblue;   
+}
+.Parent_Detail{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 20px;
+ 
+}
+.div2_heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(194, 192, 192);
+}
+.Guardian_Details{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 20px;
+ 
+}
+.input_g{
+    display: flex;
+  flex-direction: column;
+    width: 50%;
+    padding-bottom: 15px;
+     
+}
+.input_type input{
+    border: none;
+}
+.Nav_bar{
+    margin-top: 10px;
+}
+input[type=radio] {
+    
+  
+}
+.Guardian_heading{
+
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+textarea{
+    width: 80%;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
+textarea:focus{
+    border: none;
+    outline: 2px solid skyblue;   
+}
+.Student_Address_Details{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 20px;
+ 
+}
+.Miscellaneous_Details{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 20px; 
+}
+.Upload_Documents{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 20px;  
+}
+.submit_button{
+    width: 100px;
+    padding: 5px;
+    margin: 15px 20px;
+    color: white;
+    background-color: rgb(79, 122, 141);
+    border-radius: 20px;
+}

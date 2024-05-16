@@ -1,0 +1,94 @@
+.body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    background-color: #0078d4;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo img {
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.nav_home {
+    margin-top: 35px;
+    margin-left: 300px;
+}
+
+.home {
+    color: aliceblue;
+    height: 45px;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.home:hover {
+    color: white;
+    box-shadow: 0 5px 5px black;
+    transform: scale(1.2);
+}
+
+.portfolio {
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.portfolio:hover {
+    box-shadow: 0 5px 5px black;
+    transform: scale(1.2);
+}
+
+.contactus {
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.contactus:hover {
+    box-shadow: 0 5px 5px black;
+    transform: scale(1.2);
+}
+
+.userlogo {
+    height: 45px;
+    margin-right: 60px;
+    margin-top: 22px;
+    font-size: 28px;
+    transition: all 0.5s;
+}
+.userlogo:hover {
+   transform: scale(1.2);
+}
+.all_users{
+    
+}
+.all_users_button{
+    
+}
+.all_users_button:hover{
+    background-color: #0078d4;
+}

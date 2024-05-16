@@ -1,0 +1,149 @@
+.footer{
+     
+    position: fixed;
+    background-color: #0078d4;
+    box-sizing: border-box;
+    width: 100%;
+  
+    color:black;
+    padding: 10px;
+    display: grid;
+   display: flex;
+   flex-direction: row;
+    height: 200px;
+    font-family: lore,serif;
+    position: relative;
+    margin-top: 100px;
+   
+    
+
+}
+
+.about_company{
+    width: 30%;
+    height: 150px;
+    
+    margin: 0px 10px;
+    color: white;
+}
+.company_h2{
+    text-align: left;
+}
+.logo_img{
+    width: 100px;
+    height: 100px;
+   border-radius: 50%;
+  
+    
+}
+
+.search_something{
+    width: 30%;
+    height: 150px;
+   
+    margin: 0px 10px;
+    color: white;
+}
+.search_something p,h2{
+    text-align: center;
+}
+.opening_hours{
+    width: 30%;
+    height: 150px;
+   
+    margin: 0px 10px;
+    color: white;
+   
+}
+.opening_hours h2{
+    text-align: center;
+}
+.opening_hours p{
+    margin: 1%;
+    text-align: center;
+}
+.icon{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.address_p{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen
+  and (max-device-width: 480px)and (orientation: portrait),
+  only screen
+  and (max-device-width: 767px)and (orientation: landscape){
+    .footer{
+     
+        position: fixed;
+        background-color: #3a59bf;
+        box-sizing: border-box;
+        width: 100%;
+      
+        color:black;
+        padding: 10px;
+        display: grid;
+       display: flex;
+       flex-direction: column;
+        height: 1000px;
+        font-family: lore,serif;
+        position: relative;
+        margin-top: 100px;
+        
+        
+    
+    } 
+    .about_company{
+        width: 80%;
+        height: 200px;
+        border: 1px solid gray;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .search_something{
+        width: 80%;
+        height: 250px;
+        border: 1px solid gray;
+        margin-top: 10px;
+        color: white;
+    }
+    .opening_hours{
+        width: 80%;
+        height: 300px;
+        border: 1px solid gray; 
+       margin-top: 10px;
+        color: white;
+       
+    }
+    .icon{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    input{
+        width: 90%;
+        height: 30px;
+        background-color:  #3a59bf;
+        
+    }
+    input:hover{
+       outline-color: rgb(0, 255, 34);
+    }
+    ::placeholder{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+}
+
+
